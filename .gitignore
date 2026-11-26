@@ -1,0 +1,56 @@
+# ---- Unity generated ----------------------------------------------------
+# Library/ is a rebuildable cache and runs to gigabytes. It must never be
+# committed; a fresh clone regenerates it on first open.
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Unity3D-generated crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ---- IDE / solution files ----------------------------------------------
+# Unity regenerates these from the project; committing them only creates
+# merge noise.
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---- OS ------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---- Keep every .meta next to a tracked asset ---------------------------
+# Unity links a file to its script/import settings through the .meta beside
+# it. Lose one and the reference breaks on the next import, so .meta files
+# are tracked, never ignored.
+!/[Aa]ssets/**/*.meta
